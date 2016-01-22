@@ -16,8 +16,8 @@ for(int i=1;i<=n;i++){
        printf("-1\n");}
      else{
    		printf("%d\n",count);
-        for(int i=0;i<count-1;i++){
-        printf("%d %d\n",num[i]+1,num[i+1]);}
+        for(int i=0;i<count-1;i++)
+        printf("%d %d\n",num[i]+1,num[i+1]);
         printf("%d %d\n",num[count-1]+1,n);}
 return 0;
 }
