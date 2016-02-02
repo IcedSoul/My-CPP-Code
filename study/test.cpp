@@ -1,7 +1,7 @@
 #include<iostream>
 #include<algorithm>
 #include<cstdio>
-#include"BinaryTree"
+#include"BinaryTree.h"
 using namespace std;
 int main(){
 	
