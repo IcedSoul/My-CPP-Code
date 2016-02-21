@@ -6,7 +6,7 @@
 using namespace std;
 const int maxn=1000005;
 int n,q,w,sum;
-int a1,a2,ans[maxn];
+int a1,a2,num;
 int main(){
 	while(scanf("%d",&n)){
 		if(n==0) break;
