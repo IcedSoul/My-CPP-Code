@@ -18,10 +18,9 @@ int main(){
 		}
 		sort(a,a+n);
 		while(n>4){
-			ans+=min(2*a[0]+a[1]+a[n-2]+a[n-1],a[0]+3*a[1]+a[n-1]);
+			ans+=min(2*a[0]+a[n-2]+a[n-1],a[0]+2*a[1]+a[n-1]);
 			n-=2;
 		}
-		cout<<ans<<endl;
 		if(n==1)
 			ans+=a[0];
 		else if(n==2)
